@@ -13,7 +13,7 @@ focuss.onclick = function(element) {
     chrome.tabs.executeScript(
         tabs[0].id,
         {code: 
-		  "document.getElementsByClassName('ya-Toolbar')[0].style.display = 'block'; var x = document.getElementsByClassName('top-panel-container'); var i; for (i = 0; i < x.length; i++) { x[i].style.display = 'none';}"
+		  "document.getElementsByClassName('ya-Toolbar')[0].style.display = 'inline-table'; var x = document.getElementsByClassName('top-panel-container'); var i; for (i = 0; i < x.length; i++) { x[i].style.display = 'none';}"
 
 		});
 	});
@@ -24,7 +24,7 @@ focusss.onclick = function(element) {
     chrome.tabs.executeScript(
         tabs[0].id,
         {code: 
-		  "document.getElementsByClassName('ya-Toolbar')[0].style.display = 'block'; var x = document.getElementsByClassName('top-panel-container'); var i; for (i = 0; i < x.length; i++) { x[i].style.display = 'block';}"
+		  "document.getElementsByClassName('ya-Toolbar')[0].style.display = 'inline-table'; var x = document.getElementsByClassName('top-panel-container'); var i; for (i = 0; i < x.length; i++) { x[i].style.display = 'inline-table';}"
 
 		});
 	});
